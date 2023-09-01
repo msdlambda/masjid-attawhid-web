@@ -723,7 +723,7 @@ section.contact-me {
         overflow-y: scroll;
         display: block;
         position: relative;
-        max-height: 450px
+        max-height: 450px !important;
     }
 }
 
@@ -746,7 +746,7 @@ section.contact-me {
         overflow-y: scroll;
         display: block;
         position: relative;
-        max-height: 380px
+        max-height: 380px !important;
     }
 }
 
@@ -785,7 +785,7 @@ section.contact-me {
         overflow-y: scroll;
         display: block;
         position: relative;
-        max-height: 380px
+        max-height: 380px !important;
     }
 }
 
@@ -862,7 +862,7 @@ section.contact-me {
         overflow-y: scroll;
         display: block;
         position: relative;
-        max-height: 260px
+        max-height: 260px !important;
     }
 }
 
@@ -871,9 +871,10 @@ section.contact-me {
         overflow-y: scroll;
         display: block;
         position: relative;
-        max-height: 150px
+        max-height: 150px !important;
     }
 }
+
 .footer{
     display: flex;
     justify-content: space-around;
